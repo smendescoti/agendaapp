@@ -8,6 +8,7 @@ import Password from "./app/components/screens/Password";
 import CadastroContatos from "./app/components/screens/CadastroContatos";
 import ConsultaContatos from "./app/components/screens/ConsultaContatos";
 import EdicaoContatos from "./app/components/screens/EdicaoContatos";
+import ExclusaoContatos from "./app/components/screens/ExclusaoContatos";
 
 const Stack = createNativeStackNavigator();
 
@@ -23,6 +24,7 @@ export default function App() {
         <Stack.Screen name="cadastro-contatos" component={CadastroContatos} />
         <Stack.Screen name="consulta-contatos" component={ConsultaContatos} />
         <Stack.Screen name="edicao-contatos" component={EdicaoContatos} />
+        <Stack.Screen name="exclusao-contatos" component={ExclusaoContatos} />
       </Stack.Navigator>
     </NavigationContainer>
   )
